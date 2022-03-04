@@ -80,7 +80,7 @@ public class enemy : MonoBehaviour
         float distance = Vector3.Distance(goal.position, transform.position);
         if(distance<=50)
         {
-            waring += goal.gameObject.GetComponent<player>().breath;
+            waring += goal.gameObject.GetComponent<player>().breath * Time.deltaTime;
             waringTime = 2;
         }
         if (waring >= 100)
@@ -88,13 +88,13 @@ public class enemy : MonoBehaviour
             waitTime = 2.0f;
             waring = 0;
         }
-        if (waring > 0&&distance>100)
+        if (waring > 0&&distance>50)
         {
             if(waringTime > 0)
             waringTime -= Time.deltaTime;
             else if(waringTime<=0)
             {
-                waring-=2;
+                waring=0;
             }
         }
 
