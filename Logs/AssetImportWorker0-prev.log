@@ -15,11 +15,11 @@ G:/pig2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64756
+51202
 Successfully changed project path to: G:/pig2
 G:/pig2
 Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 52.73 ms, found 2 plugins.
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 38.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1c1 (cf0e0a163043)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1c1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1c1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013527 seconds.
+Registered in 0.009192 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.299 seconds
+- Completed reload, in  0.844 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1299ms)
-		BeginReloadAssembly (216ms)
+	ReloadAssembly (844ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (885ms)
-			LoadAssemblies (178ms)
+		EndReloadAssembly (583ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
+			SetupTypeCache (186ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (295ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (200ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (156ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008909 seconds.
+Registered in 0.006732 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.440 seconds
+- Completed reload, in  1.430 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2442ms)
-		BeginReloadAssembly (373ms)
+	ReloadAssembly (1432ms)
+		BeginReloadAssembly (247ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (1889ms)
-			LoadAssemblies (260ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1069ms)
+			LoadAssemblies (170ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (616ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (804ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (407ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (135ms)
-				ProcessInitializeOnLoadAttributes (568ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (57ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (29ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 71.4 MB.
 System memory in use after: 71.5 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1941.
-Total: 42.567300 ms (FindLiveObjects: 2.076900 ms CreateObjectMapping: 0.871200 ms MarkObjects: 36.844800 ms  DeleteObjects: 2.766500 ms)
+Total: 3.179100 ms (FindLiveObjects: 0.156800 ms CreateObjectMapping: 0.054000 ms MarkObjects: 2.904500 ms  DeleteObjects: 0.062800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,21 +131,657 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/cunzhishu_low.fbx
-  artifactKey: Guid(b8da49ae8b1418b42a843b057d4b96f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cunzhishu_low.fbx using Guid(b8da49ae8b1418b42a843b057d4b96f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26441395912496fab216f0e7dc34ff17') in 0.674347 seconds 
-  Import took 0.701368 seconds .
+  path: Assets/Pig/Model/SM_barrel.fbx
+  artifactKey: Guid(bb701ec9abc9b3c4cbf7345f28368c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_barrel.fbx using Guid(bb701ec9abc9b3c4cbf7345f28368c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f5d06e17e2eb929d15e103c2022a8f') in 0.319881 seconds 
+  Import took 0.322544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Pig/Model/SM_House_Ping_02.fbx
+  artifactKey: Guid(8f05dba0bfe4ef149bb7f6496541009b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_House_Ping_02.fbx using Guid(8f05dba0bfe4ef149bb7f6496541009b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab371ae724f9cc0e27a9d2ef37992a0') in 0.063852 seconds 
+  Import took 0.066423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Pig/Prefab/SM_roadsign4.prefab
+  artifactKey: Guid(cd161bb94da70de45bc062d533a2a0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Prefab/SM_roadsign4.prefab using Guid(cd161bb94da70de45bc062d533a2a0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365e2655c6e8115e61c64e4d9d8f7966') in 0.063749 seconds 
+  Import took 0.066280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Pig/Model/SM_tabledesk_01.fbx
+  artifactKey: Guid(718870b5d3812b446a510f6a1681e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_tabledesk_01.fbx using Guid(718870b5d3812b446a510f6a1681e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3589f3ef0855227d5f7e08874bb5ceb8') in 0.090754 seconds 
+  Import took 0.093326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Pig/Model/SM_Gaizi_01.fbx
+  artifactKey: Guid(c071cb8714157f242beaa25559fa8a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_Gaizi_01.fbx using Guid(c071cb8714157f242beaa25559fa8a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb30c1b7c51c5cb4d6f4e95537e6bc6') in 0.154902 seconds 
+  Import took 0.157494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Pig/1_1.fbx
+  artifactKey: Guid(d0a9408742d50de499ff06e773904e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/1_1.fbx using Guid(d0a9408742d50de499ff06e773904e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc9268bc612b8a3d922e4a6c28bf836') in 0.398537 seconds 
+  Import took 0.401495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Pig/Model/SM_chair_01.fbx
+  artifactKey: Guid(01d87ad6842ca6b40ac1827cfc139cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_chair_01.fbx using Guid(01d87ad6842ca6b40ac1827cfc139cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe515d1670c9962fde077d8b04e1dfa') in 0.028697 seconds 
+  Import took 0.031295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Pig/Model/SM_Peng.fbx
+  artifactKey: Guid(70eb7c7d52c4aaa41b096dc62fa2ff6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_Peng.fbx using Guid(70eb7c7d52c4aaa41b096dc62fa2ff6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252a18270ca6f9a7497033e4e5055340') in 0.046219 seconds 
+  Import took 0.048885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Pig/Model/SM_House_Ping_04.fbx
+  artifactKey: Guid(42b8edc3f772f9f428ebc7c6e076ceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_House_Ping_04.fbx using Guid(42b8edc3f772f9f428ebc7c6e076ceef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a86449945ea89538341354966893be') in 0.028192 seconds 
+  Import took 0.030958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Pig/Model/SM_Shelf_01.fbx
+  artifactKey: Guid(8d7261a4210368a41949463a0d9125a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_Shelf_01.fbx using Guid(8d7261a4210368a41949463a0d9125a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5774510da9fe9c8d4d7187ce32db1c6') in 0.093464 seconds 
+  Import took 0.096236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Pig/Model/SM_Stone_01.fbx
+  artifactKey: Guid(efb23e2ab7deea04d8d7afdcd8d85eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_Stone_01.fbx using Guid(efb23e2ab7deea04d8d7afdcd8d85eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddb1075d130169da9449c4ca71bb304') in 0.069367 seconds 
+  Import took 0.072262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Pig/Model/SM_vegetables_01.fbx
+  artifactKey: Guid(7f0f091e32d80b2428448537a3d68b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_vegetables_01.fbx using Guid(7f0f091e32d80b2428448537a3d68b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7f3868b44600172666193ff6d2fc67') in 0.081527 seconds 
+  Import took 0.084136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Pig/Model
+  artifactKey: Guid(c5f51654a0d1170488c6fa366a60a17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model using Guid(c5f51654a0d1170488c6fa366a60a17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e899b870e4894d7fd415aa860b79f4f') in 0.003988 seconds 
+  Import took 0.006459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Pig/Model/SM_scarecrow_01.fbx
+  artifactKey: Guid(65ecdef12e3d03f4f9b6447ac76e24c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_scarecrow_01.fbx using Guid(65ecdef12e3d03f4f9b6447ac76e24c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a757d5549f998fdb86bc3fdaf2fa60a') in 0.149493 seconds 
+  Import took 0.152534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Pig/Model/SM_House_Ping_01.fbx
+  artifactKey: Guid(ad427f4f9c2802f468c8e7681248e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_House_Ping_01.fbx using Guid(ad427f4f9c2802f468c8e7681248e477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc91c4ccd43c8aaafca56731838183c7') in 0.024663 seconds 
+  Import took 0.027402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Pig/Prefab/fence5.prefab
+  artifactKey: Guid(d4ad649ff9b93a24f956e2362dc5d3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Prefab/fence5.prefab using Guid(d4ad649ff9b93a24f956e2362dc5d3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ceb873f256413f6ee040da58a9473b') in 0.012586 seconds 
+  Import took 0.015467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Pig/Model/SM_Fence_01.fbx
+  artifactKey: Guid(2dae9038e4767734d8defe4235ed4181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_Fence_01.fbx using Guid(2dae9038e4767734d8defe4235ed4181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc27b42b9d5801508e8ff21534525b7') in 0.076925 seconds 
+  Import took 0.079693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Pig/Model/SM_House_05.fbx
+  artifactKey: Guid(df00bd8954df6464294bac24b75fa58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_House_05.fbx using Guid(df00bd8954df6464294bac24b75fa58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8991eddeeeb461d92b7322dd2726ede3') in 0.045831 seconds 
+  Import took 0.048433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Pig/Model/SM_House_Shop.fbx
+  artifactKey: Guid(f02c73c6840907a40a6d6acc28528a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_House_Shop.fbx using Guid(f02c73c6840907a40a6d6acc28528a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e043fadc9528b275f612788ded28c97') in 0.055444 seconds 
+  Import took 0.058195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Pig/Prefab/SM_roadsign2.prefab
+  artifactKey: Guid(230ff21820319dc4abd5ac7d13ee4f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Prefab/SM_roadsign2.prefab using Guid(230ff21820319dc4abd5ac7d13ee4f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8966ece6082df2fc044f95170578a591') in 0.012870 seconds 
+  Import took 0.015695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Pig/Model/SM_House_Ping_03.fbx
+  artifactKey: Guid(86af969c772ee2c46a2c394e6d4c6673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_House_Ping_03.fbx using Guid(86af969c772ee2c46a2c394e6d4c6673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa79bcded3df28dc5810efb076882c0') in 0.061032 seconds 
+  Import took 0.063869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Pig/Prefab/SM_Yaoyi.prefab
+  artifactKey: Guid(52fa782a2373adb4580c383b39ffd113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Prefab/SM_Yaoyi.prefab using Guid(52fa782a2373adb4580c383b39ffd113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e492b78e6ed6cf3d869b857fcc730bea') in 0.014824 seconds 
+  Import took 0.017572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Pig/Prefab/fence1.prefab
+  artifactKey: Guid(e9463c38ab961be4f871fcb7c3cbca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Prefab/fence1.prefab using Guid(e9463c38ab961be4f871fcb7c3cbca4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03632d4553192e5df16b0df5dd868a78') in 0.013047 seconds 
+  Import took 0.016060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Pig/Model/SM_box.fbx
+  artifactKey: Guid(6c2d3dc8cbe488b4295d057c8ce5fc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_box.fbx using Guid(6c2d3dc8cbe488b4295d057c8ce5fc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07131e705038d84aeebb1d3b1dc77a8e') in 0.028820 seconds 
+  Import took 0.031700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Pig/Model/SM_Cloth.fbx
+  artifactKey: Guid(02b0fd1e456d0bb429a07a2de6310976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_Cloth.fbx using Guid(02b0fd1e456d0bb429a07a2de6310976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b81a104345c71fc83fb6153b6312959') in 0.065667 seconds 
+  Import took 0.068435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Pig/Model/SM_woodenbasket_01.fbx
+  artifactKey: Guid(34c3b710c264bf84aa8bbe8669a8f03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_woodenbasket_01.fbx using Guid(34c3b710c264bf84aa8bbe8669a8f03c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9288c270bf673f5eecf32b1e4f197802') in 0.026536 seconds 
+  Import took 0.029254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh.asset
+  artifactKey: Guid(cae865907e2c62d4d82f3b982cc9eae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh.asset using Guid(cae865907e2c62d4d82f3b982cc9eae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b8d271a8f810a142f72c712a06a6ea') in 0.012483 seconds 
+  Import took 0.015297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Pig/Model/SM_Roadsign 1.fbx
+  artifactKey: Guid(d9c29391f88504544ab1bc10b3fd6f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Model/SM_Roadsign 1.fbx using Guid(d9c29391f88504544ab1bc10b3fd6f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e5a82b06b5a1e85101b2a0219d208d') in 0.076635 seconds 
+  Import took 0.079650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Pig/Prefab/SM_Shelf.prefab
+  artifactKey: Guid(6fae9e85ba259a349afa04381fb13947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Prefab/SM_Shelf.prefab using Guid(6fae9e85ba259a349afa04381fb13947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0dc2daa8fcbc440d223836bc84969d') in 0.014984 seconds 
+  Import took 0.017814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.682869 seconds.
+  path: Assets/Pig/Materials/Fence.mat
+  artifactKey: Guid(e890daa3d82ef4c4a84fd275fd3f2cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Materials/Fence.mat using Guid(e890daa3d82ef4c4a84fd275fd3f2cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b118f79cabfae8fb16b7a43b06e28c') in 0.840029 seconds 
+  Import took 0.843170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Pig/Materials/Roadsign.mat
+  artifactKey: Guid(3b590304bfac7824e84b76dc04113f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Materials/Roadsign.mat using Guid(3b590304bfac7824e84b76dc04113f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420100591a91cf18f3377edf4bc3f2bc') in 0.027543 seconds 
+  Import took 0.031520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Pig/Materials/Shelf.mat
+  artifactKey: Guid(e9e6b636168cd1745bf374d98466a4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Materials/Shelf.mat using Guid(e9e6b636168cd1745bf374d98466a4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62df97562877f7243ecb9621cfd0156') in 0.020648 seconds 
+  Import took 0.024279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Pig/Materials/Tabledesk.mat
+  artifactKey: Guid(366ef1b4859ceb247952158068ad6b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Materials/Tabledesk.mat using Guid(366ef1b4859ceb247952158068ad6b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be698e7dc3850adbb16f40da7444054') in 0.017090 seconds 
+  Import took 0.022117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.814969 seconds.
+  path: Assets/meterial/_polySurface102 (2).prefab
+  artifactKey: Guid(00bca572e6b3b3744b39561d4b0eabc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meterial/_polySurface102 (2).prefab using Guid(00bca572e6b3b3744b39561d4b0eabc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516e6b710d21947e1b81255d4516db67') in 0.010614 seconds 
+  Import took 0.013177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/meterial/透明材质.mat
+  artifactKey: Guid(5d0bab3fa688d9445b15a1e8d23a4181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/meterial/透明材质.mat using Guid(5d0bab3fa688d9445b15a1e8d23a4181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c33833167a5d226901e8588d3024cf0') in 0.022948 seconds 
+  Import took 0.025432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 227.277860 seconds.
+  path: Assets/Pig/Texture/plane_divided_AlbedoTransport_2.tga
+  artifactKey: Guid(009a901de4132f542a478eac12ddd03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/plane_divided_AlbedoTransport_2.tga using Guid(009a901de4132f542a478eac12ddd03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f0a6e7304e719fdfe5c1d529fa5363') in 0.101261 seconds 
+  Import took 0.104431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Pig/Texture/SM_House_3_AlbedoTransport.tga
+  artifactKey: Guid(9542303c6221bee4eb3d317d79e83164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_House_3_AlbedoTransport.tga using Guid(9542303c6221bee4eb3d317d79e83164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e925678c8ce688fde17009cae36a7a47') in 0.099653 seconds 
+  Import took 0.102110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Pig/Texture/SM_House_1_wall_RoughnessMetallic_5.tga
+  artifactKey: Guid(ef615d7ed59b0a042b4fa63dd66d3e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_House_1_wall_RoughnessMetallic_5.tga using Guid(ef615d7ed59b0a042b4fa63dd66d3e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7ebd7143794b507a3340bf6325858a') in 0.095363 seconds 
+  Import took 0.097899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Pig/Texture/SM_Roadsign_RoughnessMetallic.tga
+  artifactKey: Guid(0ca549c15baf59344b4bd7c7bf9bc0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Roadsign_RoughnessMetallic.tga using Guid(0ca549c15baf59344b4bd7c7bf9bc0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028fd08c4139f00c3aafc60a6e959ec0') in 0.121328 seconds 
+  Import took 0.124058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Pig/Texture/SM_flowerpot_Normal.tga
+  artifactKey: Guid(3ba9a78d4ae40a14f9322e769d0123da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_flowerpot_Normal.tga using Guid(3ba9a78d4ae40a14f9322e769d0123da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203867350ceb51701c95be11ba1e1d9a') in 0.125037 seconds 
+  Import took 0.127809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Pig/Texture/SM_House_1_wall_AlbedoTransport_1.tga
+  artifactKey: Guid(f6fbc09837a480147b0b3b015c2b5915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_House_1_wall_AlbedoTransport_1.tga using Guid(f6fbc09837a480147b0b3b015c2b5915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01000f0fe876da05b99afca7bc74bed2') in 0.059587 seconds 
+  Import took 0.062395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Pig/Texture/SM_Shelf_Normal.tga
+  artifactKey: Guid(0ec5253d0f856d84a91d3f6306ae252d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Shelf_Normal.tga using Guid(0ec5253d0f856d84a91d3f6306ae252d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7fe316b8bb8c3fc4091e97591bf7a7') in 0.089670 seconds 
+  Import took 0.092556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Pig/Texture/SM_woddenladder_01_AlbedoTransport.tga
+  artifactKey: Guid(b441d72bc16f59840b188e510b6ac06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_woddenladder_01_AlbedoTransport.tga using Guid(b441d72bc16f59840b188e510b6ac06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636a36ce7d7b3255ca095526f3a079db') in 0.029673 seconds 
+  Import took 0.033584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Pig/Texture/plane_divided_RoughnessMetallic.tga
+  artifactKey: Guid(221eef7b72c2bc24e85e8bd39d18d6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/plane_divided_RoughnessMetallic.tga using Guid(221eef7b72c2bc24e85e8bd39d18d6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80ff9e96e1924be9f4d9047a8fd33ec') in 0.041143 seconds 
+  Import took 0.044296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Pig/Texture/SM_Cloth_Normal.tga
+  artifactKey: Guid(f53394254397e0c47a6430c036135f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Cloth_Normal.tga using Guid(f53394254397e0c47a6430c036135f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610dc954fdf806e6506a10229ec972cc') in 0.039118 seconds 
+  Import took 0.044018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Pig/Texture/SM_House_1_roof_AlbedoTransport 2.tga
+  artifactKey: Guid(826686bca980fb14b99067d3dc58741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_House_1_roof_AlbedoTransport 2.tga using Guid(826686bca980fb14b99067d3dc58741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a701e7a511b2b53229259c4cc24d75') in 0.082996 seconds 
+  Import took 0.086401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Pig/Texture/SM_Pot_AlbedoTransport.tga
+  artifactKey: Guid(41ebf9c652105644f8a9e8f2204b6994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Pot_AlbedoTransport.tga using Guid(41ebf9c652105644f8a9e8f2204b6994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c113025355cc082185ce895960411a3f') in 0.076077 seconds 
+  Import took 0.078759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Pig/Texture/SM_Roadsign_AlbedoTransport.tga
+  artifactKey: Guid(3fb689025684db747bab396c4e627b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Roadsign_AlbedoTransport.tga using Guid(3fb689025684db747bab396c4e627b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5e4240525dea51771ee1645cb76eac') in 0.029222 seconds 
+  Import took 0.031920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Pig/Texture/SM_tabledesk_forsp_1_AlbedoTransport.tga
+  artifactKey: Guid(74abb6ca8d4caf94d8236ad90ac63b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_tabledesk_forsp_1_AlbedoTransport.tga using Guid(74abb6ca8d4caf94d8236ad90ac63b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ec986fef6e895ef2881ac96f9bf52b') in 0.090841 seconds 
+  Import took 0.093559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Pig/Texture/SM_barrel_AlbedoTransport.tga
+  artifactKey: Guid(23ce9ebd263d29a41a52e1e03401e1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_barrel_AlbedoTransport.tga using Guid(23ce9ebd263d29a41a52e1e03401e1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16f93b3c2f0ba9e1838a2541af5f782') in 0.141632 seconds 
+  Import took 0.144222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Pig/Texture/SM_Fence_RoughnessMetallic.tga
+  artifactKey: Guid(74de61fd369c2124da7a476a90d2a617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Fence_RoughnessMetallic.tga using Guid(74de61fd369c2124da7a476a90d2a617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3292fcea6e34089b4e27dfb92e9d4113') in 0.166481 seconds 
+  Import took 0.169574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Pig/Texture/SM_tabledesk_forsp_1_Normal.tga
+  artifactKey: Guid(3e7e79d8a2320f54b82fa12dad797578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_tabledesk_forsp_1_Normal.tga using Guid(3e7e79d8a2320f54b82fa12dad797578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abafaf0dcb639d51c1e5099d7401cfc5') in 0.103965 seconds 
+  Import took 0.108979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Pig/Texture/SM_House_2_AlbedoTransport.tga
+  artifactKey: Guid(8a5fd3189c792284aa246b3db1f23a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_House_2_AlbedoTransport.tga using Guid(8a5fd3189c792284aa246b3db1f23a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1299f5adc1160792f7d87401064348de') in 0.095634 seconds 
+  Import took 0.099131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Pig/Texture/plane_divided_AlbedoTransport_3.png
+  artifactKey: Guid(1d693075f3c9c6141b48dcdf7ff7e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/plane_divided_AlbedoTransport_3.png using Guid(1d693075f3c9c6141b48dcdf7ff7e23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f27db669ec13767397e9619db158da4') in 0.072340 seconds 
+  Import took 0.075722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Pig/Texture/SM_tabledesk_forsp_1_RoughnessMetallic.tga
+  artifactKey: Guid(c0d35dc6bde9f70459f5d3a3ceae75ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_tabledesk_forsp_1_RoughnessMetallic.tga using Guid(c0d35dc6bde9f70459f5d3a3ceae75ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cfe185bd3f11cea9b6a9563a76e2b7') in 0.118081 seconds 
+  Import took 0.121211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Pig/Texture/SM_Wood_AlbedoTransport.tga
+  artifactKey: Guid(53bf36c73f643c74890944984a62dc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Wood_AlbedoTransport.tga using Guid(53bf36c73f643c74890944984a62dc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397419d1df1c3a2be56a615a4c60a764') in 0.052490 seconds 
+  Import took 0.055605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Pig/Texture/SM_Cloth_AlbedoTransport.tga
+  artifactKey: Guid(4a2ed43fb35a2ee4eb3d819e58dc8232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Cloth_AlbedoTransport.tga using Guid(4a2ed43fb35a2ee4eb3d819e58dc8232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c5a63961f55e59f4914be07b036655') in 0.103036 seconds 
+  Import took 0.106100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Pig/Texture/SM_flowerpot_AlbedoTransport.tga
+  artifactKey: Guid(bf602de96b7b306468adb19df94da2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_flowerpot_AlbedoTransport.tga using Guid(bf602de96b7b306468adb19df94da2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249ba018114ad366d8942dc33711e235') in 0.062507 seconds 
+  Import took 0.065507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Pig/Texture/SM_Stonerood_AlbedoTransport.tga
+  artifactKey: Guid(c38569ad95871194384ab66e978a0e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Stonerood_AlbedoTransport.tga using Guid(c38569ad95871194384ab66e978a0e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd9ef8bc9ae90a489d60376db845eba') in 0.312960 seconds 
+  Import took 0.316516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Pig/Texture/SM_Fence_AlbedoTransport.tga
+  artifactKey: Guid(2dafc10431c4a564eb9171144e435c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Fence_AlbedoTransport.tga using Guid(2dafc10431c4a564eb9171144e435c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4f36567a52f9b71a57ec7d25fbd729') in 0.055952 seconds 
+  Import took 0.059767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Pig/Texture/SM_Cask_AlbedoTransport.tga
+  artifactKey: Guid(9321175f7b8c6b04e942167d2e7a4620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Cask_AlbedoTransport.tga using Guid(9321175f7b8c6b04e942167d2e7a4620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7c8f2f5e1c9492a8e561e11b9d8bdd') in 0.062266 seconds 
+  Import took 0.065856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Pig/Texture/SM_Roadsign_Normal.tga
+  artifactKey: Guid(149c3555c32e1714fb4a7d23c58fe4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Roadsign_Normal.tga using Guid(149c3555c32e1714fb4a7d23c58fe4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0e98e913137b6d245ddb7da3804fe8') in 0.159504 seconds 
+  Import took 0.163328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Pig/Texture/SM_Fence_Normal.tga
+  artifactKey: Guid(231d9127e6057b64f9812122d30d7003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Fence_Normal.tga using Guid(231d9127e6057b64f9812122d30d7003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baeec7ef3a014b32caa7df46c687725') in 0.100965 seconds 
+  Import took 0.103924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Pig/Texture/SM_Cloth_RoughnessMetallic.tga
+  artifactKey: Guid(e1fa837e4d4bb294fa674b2a6d61e400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Cloth_RoughnessMetallic.tga using Guid(e1fa837e4d4bb294fa674b2a6d61e400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3203d6be66d35ea92fcf7db1a12c31e5') in 0.099397 seconds 
+  Import took 0.102233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Pig/Texture/SM_Cask_Normal.tga
+  artifactKey: Guid(ddc92ef9d0e2af546b13b484dda6e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Cask_Normal.tga using Guid(ddc92ef9d0e2af546b13b484dda6e8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401603e5dc89d2c52046f20d922fdd1d') in 0.013287 seconds 
+  Import took 0.016128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Pig/Texture/SM_Roof_2_2_AlbedoTransport.tga
+  artifactKey: Guid(b656762fbe60e8c4980346db1931f0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Roof_2_2_AlbedoTransport.tga using Guid(b656762fbe60e8c4980346db1931f0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd6138d2da8c6e72f5046fc64c32b905') in 0.012599 seconds 
+  Import took 0.015413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Pig/Texture/SM_House_1_roof_AlbedoTransport 1.tga
+  artifactKey: Guid(fc29929b7a10b064fab8cd0266321a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_House_1_roof_AlbedoTransport 1.tga using Guid(fc29929b7a10b064fab8cd0266321a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c511d6e702ac24786d2a8b22f2e0662') in 0.071357 seconds 
+  Import took 0.074083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Pig/Texture/SM_barrel_Normal.tga
+  artifactKey: Guid(7fe197c248198c94fb57a0165c75a5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_barrel_Normal.tga using Guid(7fe197c248198c94fb57a0165c75a5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf54fab7c80a0bf0f292e26c4470396') in 0.026580 seconds 
+  Import took 0.029330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Pig/Texture/SM_House_1_roof_AlbedoTransport 3.tga
+  artifactKey: Guid(b8d3ebd56608bdc49b56233a7352b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_House_1_roof_AlbedoTransport 3.tga using Guid(b8d3ebd56608bdc49b56233a7352b1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1ef1983c80e0c229e18a380de19497') in 0.079331 seconds 
+  Import took 0.082086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Pig/Texture/SM_flowerpot_RoughnessMetallic.tga
+  artifactKey: Guid(2d6f068e98b9b934fad6682264f034cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_flowerpot_RoughnessMetallic.tga using Guid(2d6f068e98b9b934fad6682264f034cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6188b503e09a9e7b778467a8239d3ab') in 0.126661 seconds 
+  Import took 0.129259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Pig/Texture/SM_Shelf_AlbedoTransport.tga
+  artifactKey: Guid(08e8be3b3209e554780a274372c52dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Shelf_AlbedoTransport.tga using Guid(08e8be3b3209e554780a274372c52dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dcab06ee7c4a4182ff240df310ce59') in 0.061433 seconds 
+  Import took 0.064079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Pig/Texture/SM_House_1_roof_AlbedoTransport.tga
+  artifactKey: Guid(8a7b9f1d0530ba6448f6dbc06595d537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_House_1_roof_AlbedoTransport.tga using Guid(8a7b9f1d0530ba6448f6dbc06595d537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9f820b47c7b5386df305fe70bc66d2') in 0.108683 seconds 
+  Import took 0.111314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Pig/Texture/SM_House_1_roof_RoughnessMetallic.tga
+  artifactKey: Guid(05c676d44b86e5a42bc1ccd02bc7becf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_House_1_roof_RoughnessMetallic.tga using Guid(05c676d44b86e5a42bc1ccd02bc7becf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c6836831c7742f22e4904180ff13ac') in 0.087355 seconds 
+  Import took 0.090131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Pig/Texture/SM_Shelf_RoughnessMetallic.tga
+  artifactKey: Guid(d298d754c8af672468cbc74cc6ae6539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_Shelf_RoughnessMetallic.tga using Guid(d298d754c8af672468cbc74cc6ae6539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14673fccdfa2f7c86cf31aedd3222b1') in 0.092362 seconds 
+  Import took 0.095013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Pig/Texture/SM_House_1_wall_Normal_3.tga
+  artifactKey: Guid(893c8b8534332a142bcbe95a59ad1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_House_1_wall_Normal_3.tga using Guid(893c8b8534332a142bcbe95a59ad1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5df3628c5820c28d47967426b937a0e') in 0.097376 seconds 
+  Import took 0.099874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Pig/Texture/SM_chair_01_AlbedoTransport.tga
+  artifactKey: Guid(e6c5e0c951fe88d48bec3a8000941987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pig/Texture/SM_chair_01_AlbedoTransport.tga using Guid(e6c5e0c951fe88d48bec3a8000941987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6558b3017dcef2432023a97932847057') in 0.054234 seconds 
+  Import took 0.056772 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 7.22 ms, found 2 plugins.
+Registering precompiled user dll's ...
+Registered in 0.105229 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 45.3 MB.
-System memory in use after: 45.5 MB.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  2.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2443ms)
+		BeginReloadAssembly (805ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1476ms)
+			LoadAssemblies (777ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (416ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (694ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (276ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (42ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.8 MB.
+System memory in use after: 80.9 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1984.
-Total: 4.874300 ms (FindLiveObjects: 0.252400 ms CreateObjectMapping: 0.175200 ms MarkObjects: 4.418400 ms  DeleteObjects: 0.026500 ms)
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2083.
+Total: 4.725100 ms (FindLiveObjects: 0.206900 ms CreateObjectMapping: 0.092400 ms MarkObjects: 3.433500 ms  DeleteObjects: 0.990400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -157,4 +793,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.061913 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.788 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1789ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1427ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (461ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (322ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.9 MB.
+System memory in use after: 76.0 MB.
+
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 2027.
+Total: 2.874200 ms (FindLiveObjects: 0.146500 ms CreateObjectMapping: 0.057900 ms MarkObjects: 2.628800 ms  DeleteObjects: 0.039700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.302 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1303ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1020ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1622 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.9 MB.
+System memory in use after: 80.9 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2087.
+Total: 3.391400 ms (FindLiveObjects: 0.150600 ms CreateObjectMapping: 0.062200 ms MarkObjects: 2.498600 ms  DeleteObjects: 0.679200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1122.761547 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f546ebe9abeaffd4def680a5c7a768') in 0.018022 seconds 
+  Import took 0.021372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.983229 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(a7c536b1e2a9d22438283e475d819a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(a7c536b1e2a9d22438283e475d819a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffaac2b831543b4d814cca005a94b48') in 0.003654 seconds 
+  Import took 0.006463 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
