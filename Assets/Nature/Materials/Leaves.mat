@@ -100,9 +100,10 @@ Material:
     - _BaseColor: {r: 0.61909425, g: 0.7830189, b: 0.40258992, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SecondColor: {r: 0.4934529, g: 0.5754717, b: 0.36645603, a: 0}
+    - _SecondColor: {r: 0.23629406, g: 0.8490566, b: 0.5796931, a: 0}
     - _SecondColor1: {r: 0.7229082, g: 0.7647059, b: 0.27058828, a: 1}
     - _TilingOffset: {r: 1, g: 1, b: 0, a: 0}
     - _TilingOffset1: {r: 1, g: 1, b: 0, a: 0}
     - _VariationColor: {r: 0.38271883, g: 0.5471698, b: 0, a: 0}
     - _VartiationAmountSharpness: {r: 0.24, g: 1.06, b: 0, a: 0}
+  m_BuildTextureStacks: []
