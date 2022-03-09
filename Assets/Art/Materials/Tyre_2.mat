@@ -72,7 +72,7 @@ Material:
     - _TessValue: 1
     - __dirty: 0
     m_Colors:
-    - _BaseTint: {r: 0.6269596, g: 0.514151, b: 1, a: 1}
+    - _BaseTint: {r: 0.5271004, g: 0.9669031, b: 0.9716981, a: 1}
     - _HighlightTint: {r: 0.1081128, g: 0.051804047, b: 0, a: 1}
     - _OutlineTint: {r: 1, g: 1, b: 1, a: 0}
     - _RimColor: {r: 0.4245283, g: 0.3547368, b: 0.27033642, a: 1}
