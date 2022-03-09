@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorRGBOutlineWidthA:
-        m_Texture: {fileID: 2800000, guid: be23245485f49b64fa92652070b97690, type: 3}
+        m_Texture: {fileID: 2800000, guid: 668e58f2a31eb93428e95192303d8f20, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Highlight:
@@ -72,7 +72,7 @@ Material:
     - _TessValue: 1
     - __dirty: 0
     m_Colors:
-    - _BaseTint: {r: 0.7830189, g: 0.57671136, b: 0.5281684, a: 1}
+    - _BaseTint: {r: 1, g: 0.92500573, b: 0.8915094, a: 1}
     - _HighlightTint: {r: 0.0315329, g: 0.014640274, b: 0, a: 1}
     - _OutlineTint: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 0}
     - _RimColor: {r: 0.4245283, g: 0.3547368, b: 0.27033642, a: 1}

@@ -51,5 +51,5 @@ Material:
     - _Color0: {r: 1, g: 1, b: 1, a: 0}
     - _Color1: {r: 0, g: 1, b: 0.8758622, a: 0}
     - _Color_fix: {r: 0.9622642, g: 0.51290494, b: 0.56092805, a: 0}
-    - _RimColor: {r: 0, g: 1.0896554, b: 2, a: 1}
+    - _RimColor: {r: 0, g: 1.0347999, b: 2.670157, a: 1}
   m_BuildTextureStacks: []
