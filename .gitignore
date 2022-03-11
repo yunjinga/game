@@ -11,6 +11,8 @@
 /Unity.Postprocessing.Runtime.csproj
 .sln.DotSettings.user
 /Library
+/Library/
+Library/
 /obj
 /Temp
 /.vs
