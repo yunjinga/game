@@ -21,6 +21,10 @@ public class control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+    }
+    void LateUpdate()
+    {
         transform.position = playerTransform.position + offset;
         if (Input.GetMouseButton(1))
         {

@@ -7,15 +7,14 @@ using UnityEngine.UI;
 public class player : MonoBehaviour
 {
     public Rigidbody rd;
-    float rushTime = 5.0f;//可冲刺时间
-    float waitTime = 1.0f;//等待时间
+    float rushTime = 5.0f;          //可冲刺时间
+    float waitTime = 1.0f;          //等待时间
     public Slider slider;
-    public float speed = 0f;//速度
-    public float breath = 1.0f;
-    public float turnSpeed = 1.0f;
-    public float speed_a;
-    public float direct_y;//旋转角度
-    public double sin_1, cos_1;//相对于世界坐标的cos和sin
+    public float speed = 0f;        //速度
+    public float breath = 1.0f;     //气息值
+    public float speed_a;           //记录初始速度的值
+    public float direct_y;          //旋转角度
+    public double sin_1, cos_1;     //相对于世界坐标的cos和sin
     Animator ator;
     Vector3 direct;
     void Start()
@@ -38,27 +37,33 @@ public class player : MonoBehaviour
     }
     void Update()
     {
-        Move();
         RushTime();
     }
-    
+    void FixedUpdate()
+    {
+        Move();
+    }
+
     private void Move()
     {
-        ator.SetBool("isRun", true);
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
         //Debug.Log(h);
         Vector3 sped = new Vector3(h, 0, v);
-        Vector3 sped_x = new Vector3(h, 0, v);
         sped = sped.normalized;
+        Vector3 sped_x = sped;
         //Debug.Log("sped.x * sin_1=" + sped.z * cos_1 + " sped.x * sin_1= " + sped.x * sin_1);
         sped.x = (float)(sped_x.x * cos_1 + sped_x.z * sin_1);
         sped.z = (float)(sped_x.z * cos_1 - sped_x.x * sin_1);
         //sped.x = (float)(sped_x.x * cos_1 - sped_x.z * sin_1);
         //sped.z = (float)(sped_x.z * cos_1 + sped_x.x * sin_1);
-        if(sped.x>0|| sped.z>0)
+        if(sped!=Vector3.zero)
         {
-            //ator.SetBool("isRun", true);
+            ator.SetBool("isRun", true);
+        }
+        else
+        {
+            ator.SetBool("isRun", false);
         }
         transform.Translate(sped * Time.deltaTime * speed, Space.World);
         transform.LookAt(transform.position + sped);

@@ -435,7 +435,6 @@ MonoBehaviour:
   slider: {fileID: 1012741991}
   speed: 2
   breath: 1
-  turnSpeed: 1
   speed_a: 0
   direct_y: 0
   sin_1: 0
@@ -470,31 +469,16 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23526053}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: ded037da3bd9b3a448971ce11ff05ca6, type: 3}
   m_Controller: {fileID: 9100000, guid: b17a2e8e18cf98c49a943eafbbf108fb, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!111 &23526058
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 23526053}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 1827226128182048838, guid: ded037da3bd9b3a448971ce11ff05ca6, type: 3}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!1001 &37346626
 PrefabInstance:
   m_ObjectHideFlags: 0
